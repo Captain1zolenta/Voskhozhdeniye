@@ -12,12 +12,14 @@
 
 int main() {
 
-    Character biba{ Biba, 135, 5, 35 };
-    Character boba{ Boba, 70, 40, 10 };
+    setlocale(LC_ALL, "");
 
-    int damage{ biba.damageCalculation };
+    Character biba{ "Biba", 135, 5, 35};
+    Character boba{ "Boba", 70, 40, 10};
+
+    int damage{ biba.damageCalculation()};
     boba.takeDamage(damage);
-    std::cout << "HP Boba: " << boba.getHealth << std::endl;
+    std::cout << "HP Boba: " << boba.getHealth() << std::endl;
 
     return 0;
 }

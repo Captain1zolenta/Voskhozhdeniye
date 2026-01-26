@@ -1,5 +1,6 @@
 #include "character.h"
 #include <string>
+#include <iostream>
 
 Character::Character(
 	std::string p_name,
