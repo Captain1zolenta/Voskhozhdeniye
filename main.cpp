@@ -7,12 +7,12 @@
 */
 
 #include <iostream>
+#include "Game.h"
 
 int main() {
 
-    for (int i = 0; i < 10; i++) {
-        std::cout << "Hello, World!" << std::endl;
-    }
+    Game game {};
+    game.printHeader();
 
-    return -0;
+    return 0;
 }
