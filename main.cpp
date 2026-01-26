@@ -7,12 +7,17 @@
 */
 
 #include <iostream>
-#include "Game.h"
+#include "game.h"
+#include "character.h"
 
 int main() {
 
-    Game game {};
-    game.printHeader();
+    Character biba{ Biba, 135, 5, 35 };
+    Character boba{ Boba, 70, 40, 10 };
+
+    int damage{ biba.damageCalculation };
+    boba.takeDamage(damage);
+    std::cout << "HP Boba: " << boba.getHealth << std::endl;
 
     return 0;
 }

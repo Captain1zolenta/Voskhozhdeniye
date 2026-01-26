@@ -1,5 +1,4 @@
-#ifndef GAME_H
-#define GAME_H
+#pragma once
 
 class Game {
 
@@ -16,5 +15,3 @@ public:
     void restartGame();
 
 };
-
-#endif
