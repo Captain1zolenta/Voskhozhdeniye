@@ -24,6 +24,21 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="tower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="duel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="battleField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="storyTeller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="character.h">
@@ -32,5 +47,23 @@
     <ClInclude Include="game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="tower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="duel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="battleField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="storyTeller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="poster.txt" />
   </ItemGroup>
 </Project>

@@ -3,6 +3,8 @@
 
 Game::Game() {}
 
+Game::~Game() {}
+
 void Game::printHeader() {
     std::cout << "Welcome to the game!" << std::endl;
 }

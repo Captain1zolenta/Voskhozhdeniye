@@ -14,9 +14,12 @@ strength{ p_strength }
 {
 }
 
-void Character::takeDamage(int damage) {
-	healthPoint = healthPoint - damage;
-	std::cout << name << "получил урон на " << damage << "HP" << std::endl;
+Character::~Character(){}
+
+void Character::giveDamage(Character& character) {
+	int damage = damageCalculation();
+	character.takeDamage(damage);
+	std::cout << name << " нанес " <<  character.getName() << " урона на " << damage << " HP" << std::endl;
 }
 
 int Character::damageCalculation() const
@@ -27,6 +30,11 @@ int Character::damageCalculation() const
 bool Character::isLive() const
 {
 	return healthPoint >= 0;
+}
+
+void Character::takeDamage(int damage)
+{
+	Character::healthPoint -= damage;
 }
 
 

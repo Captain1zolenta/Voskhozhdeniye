@@ -6,6 +6,8 @@ public:
 
     Game();
 
+    ~Game();
+
     void printHeader();
 
     void startGame();

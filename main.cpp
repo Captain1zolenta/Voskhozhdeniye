@@ -9,17 +9,20 @@
 #include <iostream>
 #include "game.h"
 #include "character.h"
+#include "storyTeller.h"
+
 
 int main() {
 
     setlocale(LC_ALL, "");
 
-    Character biba{ "Biba", 135, 5, 35};
-    Character boba{ "Boba", 70, 40, 10};
+    //Character biba{ "Biba", 135, 5, 35};
+    //Character boba{ "Boba", 70, 40, 10};
 
-    int damage{ biba.damageCalculation()};
-    boba.takeDamage(damage);
-    std::cout << "HP Boba: " << boba.getHealth() << std::endl;
+    //boba.giveDamage(biba);
+    //std::cout << "HP Boba: " << biba.getHealth() << std::endl;
+
+    StoryTeller::printPoster();
 
     return 0;
 }

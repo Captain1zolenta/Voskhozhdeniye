@@ -11,9 +11,12 @@ public:
 		int p_strength = 20
 	);
 
-	void takeDamage(int damage);
+	~Character();
+
+	void giveDamage(Character &character);
 	int damageCalculation() const;
 	bool isLive() const;
+	void takeDamage(int damage);
 
 	int getHealth() const;
 	int getdexterity() const;

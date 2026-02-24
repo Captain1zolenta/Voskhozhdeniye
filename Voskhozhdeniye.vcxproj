@@ -119,13 +119,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="battleField.cpp" />
     <ClCompile Include="character.cpp" />
+    <ClCompile Include="duel.cpp" />
     <ClCompile Include="game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="shop.cpp" />
+    <ClCompile Include="storyTeller.cpp" />
+    <ClCompile Include="tower.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="battleField.h" />
     <ClInclude Include="character.h" />
+    <ClInclude Include="duel.h" />
     <ClInclude Include="game.h" />
+    <ClInclude Include="shop.h" />
+    <ClInclude Include="storyTeller.h" />
+    <ClInclude Include="tower.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="poster.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
